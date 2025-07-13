@@ -427,7 +427,7 @@ a{
 .read-more{
 	text-decoration: none;
 	color: rgb(115, 27, 26);
-	font-family: 'SinkinSans-700Bold', sans-serif;
+	font-family: 'SinkinSans-700Bold';
 	font-size: 14px;
 }
 .read-more:hover{
@@ -524,7 +524,7 @@ a:hover{
 	-webkit-border-radius: 12px;
 	-moz-border-radius: 12px;
 	border-radius: 12px;
-	font-family: 'SinkinSans-Semibold','SinkinSans-700Bold', sans-serif;
+	font-family: 'SinkinSans-Semibold','SinkinSans-700Bold';
 }
 .btn-1:hover{
 	color: #636363;
@@ -536,7 +536,7 @@ a:hover{
 	-webkit-border-radius: 12px;
 	-moz-border-radius: 12px;
 	border-radius: 12px;
-	font-family: 'SinkinSans-Semibold','SinkinSans-700Bold', sans-serif;
+	font-family: 'SinkinSans-Semibold','SinkinSans-700Bold';
 }
 .btn-2 a{
 	color: white;
@@ -547,7 +547,7 @@ a:hover{
 .btn-3{
 	color: white;
 	font-size: 14px;
-	font-family: 'SinkinSans-Semibold', sans-serif;
+	font-family: 'SinkinSans-Semibold';
 	padding-left: 40px;
 	padding-right: 40px;
 	-webkit-border-radius: 12px;
@@ -575,7 +575,7 @@ a:hover{
 	-webkit-border-radius: 12px;
 	-moz-border-radius: 12px;
 	border-radius: 12px;
-	font-family: 'SinkinSans-300Light', sans-serif;
+	font-family: 'SinkinSans-300Light';
 }
 .btn-app a{
 	color: rgb(115, 27, 26);
@@ -814,7 +814,7 @@ ul.navbar-nav li{
 .navbar-light .navbar-nav .nav-link{
 	color: rgb(115, 27, 26) !important;
 	font-size: 15px;
-	font-family: 'SinkinSans-Regular', sans-serif;
+	font-family: 'SinkinSans-Regular';
 }
 
 .navbar ul li.active a{
@@ -1276,7 +1276,7 @@ ul.navbar-nav li{
 }
 .slide-product .title-2{
 	font-size: 21px;
-	font-family: 'SinkinSans-Regular', sans-serif;
+	font-family: 'SinkinSans-Regular';
 }
 .slide-product .actions{
 	text-align: center;
@@ -1419,7 +1419,7 @@ ul.navbar-nav li{
 .footer-slider p{
 	color: rgb(115, 27, 26);
 	font-size: 26px;
-	font-family: 'SinkinSans-Regular', sans-serif;
+	font-family: 'SinkinSans-Regular';
 	line-height: 30px;
 }
 .footer-slider .fa-caret-left{
@@ -1440,7 +1440,7 @@ ul.navbar-nav li{
 	cursor: pointer;
 }
 .footer-slider h3{
-	font-family: 'SinkinSans-700Bold', sans-serif;
+	font-family: 'SinkinSans-700Bold';
 	font-size: 39px;
 }
 .footer-slider .slick-slide{
@@ -2116,7 +2116,7 @@ ul.wizard li > span{
 	z-index: 1;
 	text-align: center;
 	font-size: 18px;
-	font-family: 'SinkinSans-700Bold', sans-serif;
+	font-family: 'SinkinSans-700Bold';
 }
 /*ul.wizard li > span span.numbers{*/
 	/*position: absolute;*/
@@ -2156,7 +2156,7 @@ ul.wizard li:last-of-type:after{
 	border: solid thin #0033A0;
 	background-color: #FFFFFF;
 	font-size: 15px;
-	font-family: 'SinkinSans-Semibold', sans-serif;
+	font-family: 'SinkinSans-Semibold';
 }
 .wizard-button-travel button.active{
 	color: #FFFFFF;
@@ -2215,7 +2215,7 @@ input.error {
 	font-size: 14px;
 }
 .pol-details-question .title{
-	font-family: 'SinkinSans-700Bold', sans-serif;
+	font-family: 'SinkinSans-700Bold';
 }
 
 
@@ -2259,7 +2259,7 @@ input.error {
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
-	font-family: 'SinkinSans-700Bold', sans-serif;
+	font-family: 'SinkinSans-700Bold';
 }
 .in-case-of-claim div.content{
 	display: none;
@@ -2353,7 +2353,7 @@ input.error {
 	margin-left: 30px;
 	width: calc( 100% - 330px );
 	font-size: 15px;
-	font-family: 'SinkinSans-Light', sans-serif;
+	font-family: 'SinkinSans-Light';
 }
 @media screen and (max-width: 768px) {
 	.our-pro-mobile-app .body .img{
@@ -2606,7 +2606,7 @@ input.error {
 	font-size: 15px;
 	display: table-cell;
 	vertical-align: middle;
-	font-family: 'SinkinSans-Regular', sans-serif;
+	font-family: 'SinkinSans-Regular';
 	line-height: 25px;
 }
 @media screen and (max-width: 1350px) {
@@ -2638,7 +2638,7 @@ input.error {
 	font-size: 16px;
 }
 .cards-container .cards .details h6{
-	font-family: 'SinkinSans-700Bold', sans-serif;
+	font-family: 'SinkinSans-700Bold';
 }
 .cards-container .cards .details .label{
 	display: block;
@@ -2888,7 +2888,7 @@ input.error {
 }
 .modal-custom-message .modal-custom-content p{
 	font-size: 32px;
-	font-family: 'SinkinSans-700Bold', sans-serif;
+	font-family: 'SinkinSans-700Bold';
 	text-align: center;
 	line-height: 35px;
 	width: 75%;

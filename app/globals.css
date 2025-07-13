@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+ 
 
 @tailwind base;
 @tailwind components;
@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins, sans-serif';
+  font-family: 'Poppins';
   border-color: transparent !important;
 }
 
@@ -71,7 +71,7 @@ body {
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   border-radius: 12px;
-  font-family: 'Poppins, sans-serif';
+  font-family: 'Poppins';
 }
 
 
@@ -140,7 +140,7 @@ a:hover {
 
 
 .klaviyo_submit_button {
-  font-family: 'Poppins, sans-serif';
+  font-family: 'Poppins';
   font-size: 12px;
   font-weight: 700;
   background: #100501;
@@ -424,14 +424,14 @@ p,
 a,
 div {
 
-  font-family: 'Poppins, sans-serif';
+  font-family: 'Poppins';
   font-weight: 400 !important;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Poppins, sans-serif';
+  font-family: 'Poppins';
   font-weight: 400 !important;
   letter-spacing: 5px !important;
   font-size: 25px !important;

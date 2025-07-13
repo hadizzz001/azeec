@@ -71,7 +71,7 @@ export default function Home() {
 <style
   dangerouslySetInnerHTML={{
     __html:
-      '\n  p:not(.u-text-variant) {\n    font-family: Lato, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";\n    font-size: .7857142857142857rem;\n    line-height: 1.15rem;\n    font-weight: 400;\n    letter-spacing: .025em;\n    -webkit-font-smoothing: antialiased;\n  }\n'
+      '\n  p:not(.u-text-variant) {\n    font-family: Lato, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";\n    font-size: .7857142857142857rem;\n    line-height: 1.15rem;\n    font-weight: 400;\n    letter-spacing: .025em;\n    -webkit-font-smoothing: antialiased;\n  }\n'
   }}
 />
 
@@ -97,7 +97,7 @@ export default function Home() {
 
 <style
   dangerouslySetInnerHTML={{
-    __html: '\n  h4 { \n    font-family: Poppins, sans-serif;\n}\n'
+    __html: '\n  h4 { \n    font-family: Poppins;\n}\n'
   }}
 />
 

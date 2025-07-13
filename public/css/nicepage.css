@@ -17729,7 +17729,7 @@ p {
   word-break: break-all;
 }
 .u-font-arial.u-custom-font {
-  font-family: Arial, sans-serif !important;
+  font-family: Arial !important;
 }
 .u-font-courier-new.u-custom-font {
   font-family: 'Courier New', monospace !important;
@@ -17738,37 +17738,37 @@ p {
   font-family: Georgia, serif !important;
 }
 .u-font-roboto.u-custom-font {
-  font-family: Roboto, sans-serif !important;
+  font-family: Roboto !important;
 }
 .u-font-open-sans.u-custom-font {
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Open Sans' !important;
 }
 .u-font-lato.u-custom-font {
-  font-family: Lato, sans-serif !important;
+  font-family: Lato !important;
 }
 .u-font-montserrat.u-custom-font {
-  font-family: Montserrat, sans-serif !important;
+  font-family: Montserrat !important;
 }
 .u-font-roboto-condensed.u-custom-font {
-  font-family: 'Roboto Condensed', sans-serif !important;
+  font-family: 'Roboto Condensed' !important;
 }
 .u-font-source-sans-pro.u-custom-font {
-  font-family: 'Source Sans Pro', sans-serif !important;
+  font-family: 'Source Sans Pro' !important;
 }
 .u-font-oswald.u-custom-font {
-  font-family: Oswald, sans-serif !important;
+  font-family: Oswald !important;
 }
 .u-font-raleway.u-custom-font {
-  font-family: Raleway, sans-serif !important;
+  font-family: Raleway !important;
 }
 .u-font-pt-sans.u-custom-font {
-  font-family: 'PT Sans', sans-serif !important;
+  font-family: 'PT Sans' !important;
 }
 .u-font-ubuntu.u-custom-font {
-  font-family: Ubuntu, sans-serif !important;
+  font-family: Ubuntu !important;
 }
 .u-font-titillium-web.u-custom-font {
-  font-family: 'Titillium Web', sans-serif !important;
+  font-family: 'Titillium Web' !important;
 }
 .u-font-merriweather.u-custom-font {
   font-family: Merriweather, serif !important;
