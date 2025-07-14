@@ -347,7 +347,7 @@ const Footer = () => {
                                 allTemp.map((category , index) => (
                                     <li key={index}>
                                         <a
-                                            href={`/search?cat=${category.name}`}
+                                            href={`/projects`}
                                             data-auto-id="true"
                                             id={`page-footer-category-${index}`}
                                         >

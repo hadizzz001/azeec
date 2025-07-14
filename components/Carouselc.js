@@ -1,0 +1,53 @@
+"use client";
+
+import React from "react";
+
+const MyCarousel = () => {
+  return (
+    <div className="relative w-full h-[750px] overflow-hidden">
+
+      <img
+        src="https://res.cloudinary.com/dvsbgovdg/image/upload/v1752493644/contact_lzdmc6.webp"
+        alt="Background"
+        className="absolute top-0 left-0 w-full h-full object-cover rounded-br-[120px]"
+      />
+
+      {/* <div className="absolute inset-0 z-10 pointer-events-none bg-black opacity-45" /> */}
+
+      <div className="container relative z-10 flex flex-col items-start justify-center h-full p-4 text-left text-black mt-20"> 
+        <h1 className="text-[44px] font-bold   animate-slideInLeft myWhite myTitle">Contact<br />Us </h1><br/>
+        <p className="text-[20px] mt-2 animate-slideInLeft delay-200 myWhite">
+         We are here to help you every step of the way,<br/>
+          offering dedicated support and personalized<br/>
+          solutions tailored to your unique needs.
+        </p>
+ 
+
+      </div>
+
+      {/* Animations */}
+      <style jsx>{`
+        @keyframes slideInLeft {
+          0% {
+            transform: translateX(-100%);
+            opacity: 0;
+          }
+          100% {
+            transform: translateX(0);
+            opacity: 1;
+          }
+        }
+
+        .animate-slideInLeft {
+          animation: slideInLeft 1s ease-out forwards;
+        }
+
+        .delay-200 {
+          animation-delay: 0.2s;
+        }
+      `}</style>
+    </div>
+  );
+};
+
+export default MyCarousel;

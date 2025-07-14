@@ -12,22 +12,15 @@ export const sendEmail = async (formData: FormData) => {
     const message = formData.get("message");
 
 
-    if (firstname != null) {
+     
         resend.emails.send({
             from: "info@anazon.hadizproductions.com",
-            to: "batoul@test0.hadizproductions.com",
+            to: "alihadimedlej001@gmail.com",
             subject: "New message from your website customer",
             text: "Name: " + firstname + " " + lastname + "\nEmail:" + email + "\nPhone:" + phone + "\n" + message,
         })
         redirect('/thank');
-    } else {
-        resend.emails.send({
-            from: "info@anazon.hadizproductions.com",
-            to: email+"",
-            subject: "Offer code from AZEEC ",
-            text: "Thanks you for subscribing with AZEEC  your code is: Abcd12345",
-        })
-    }
+    
     
 
 }

@@ -11,13 +11,16 @@ const NavBar = () => {
 <nav className="top-0 bg-transparent absolute w-full z-50 text-white mb-20">
   <div className="container mx-auto flex items-center justify-between px-4 py-4">
     {/* Logo */}
-    <div className="text-xl font-bold">
-      <img
-        src="https://res.cloudinary.com/dvsbgovdg/image/upload/v1752244868/white_mqkril.webp"
-        width={200}
-        alt="Logo" 
-      />
-    </div>
+<div className="text-xl font-bold">
+  <a href="/">
+    <img
+      src="https://res.cloudinary.com/dvsbgovdg/image/upload/v1752244868/white_mqkril.webp"
+      width={200}
+      alt="Logo"
+      style={{ cursor: 'pointer' }}
+    />
+  </a>
+</div>
 
     {/* Desktop Nav */}
     <ul className="hidden md:flex space-x-8 font-semibold text-lg">

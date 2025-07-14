@@ -567,7 +567,7 @@ main {
 
 
 .MiniCart_Cart .MiniCart_Cart_CtaButton {
-  background-color: #cab8ac !important;
+  background-color: #fffd04 !important;
 }
 
 .MiniCart_Cart .MiniCart_Cart_CtaButton span {
@@ -581,7 +581,7 @@ main {
 
 
 .NewsletterSignupFooter_Component .klaviyo_submit_button {
-  background: #cab8ac !important;
+  background: #fffd04 !important;
   color: #100501 !important;
 }
 
@@ -594,8 +594,8 @@ textarea {
 
 
 .react-calendar {
-  background: #cab8ac !important;
-  border: 1px solid #cab8ac !important;
+  background: #fffd04 !important;
+  border: 1px solid #fffd04 !important;
   color: #100501 !important;
 }
 
@@ -613,7 +613,7 @@ textarea {
 
 
 .selected-hour {
-  background-color: #cab8ac !important;
+  background-color: #fffd04 !important;
   color: black !important;
   /* Optional: for contrast */
 }
@@ -639,7 +639,7 @@ header {
 
 
 .HtmlProductAddToCart {
-  background-color: #cab8ac !important;
+  background-color: #fffd04 !important;
 }
 
 .ProductTile-SliderContainer--YMAL.ProductTile-SliderContainer {
@@ -663,7 +663,7 @@ header {
 
 
 .klaviyo_submit_button {
-  background: #cab8ac !important;
+  background: #fffd04 !important;
   color: #100501 !important;
 }
 
@@ -818,4 +818,10 @@ font-weight: 600 !important;
 
 body {
     background-color: #fff !important; 
+}
+
+
+
+.form-control{
+  border: '1px solid #c5c5c5' !important
 }

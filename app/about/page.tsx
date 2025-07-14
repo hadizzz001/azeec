@@ -1,118 +1,105 @@
-"use client"
+'use client';
 
-export default function Home() {
+import { motion } from 'framer-motion';
+import Carousela from '../../components/Carousela';
 
-    return (
-        <>
+const AboutUs = () => {
+  const variants = {
+    hidden: { opacity: 0, y: -20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 1, ease: 'easeOut' } },
+  };
 
+  return (
+    <>
+      <style>{`
+        .aboutus-container {
+          display: flex !important;
+          flex-direction: column !important;
+          width: 100% !important; 
+        }
 
-<>
-  <link rel="stylesheet" href="css/nicepage.css" media="screen" />
-  <link rel="stylesheet" href="css/nicepage-site.css" media="screen" />
-  <link rel="stylesheet" href="css/Page-5.css" media="screen" />
-  <meta name="theme-color" content="#478ac9" />
-  <meta property="og:title" content="Page 5" />
-  <meta property="og:type" content="website" />
-  <section
-    className="u-align-center u-clearfix u-image u-section-1"
-    id="sec-9a83"
-    data-image-width={1980}
-    data-image-height={1214}
-  >
-    <div className="u-clearfix u-sheet u-valign-middle u-sheet-1">
-      <div className="u-align-center u-container-style u-group u-group-1">
-        <div className="u-container-layout u-valign-middle">
-           
-          <h2 className=" myGray"  >About Company</h2>
-          <p className="  myGray" > 
-            AZEEC  specializes in premium pool equipment and exciting water toys designed to elevate your aquatic experience. From maintenance essentials to fun floatables, we bring innovation and enjoyment to every splash.
-          </p>
+        @media (min-width: 1024px) {
+          .aboutus-container {
+            flex-direction: row !important; 
+            max-width: 100% !important;
+            gap: 3rem !important;
+          }
+
+          .aboutus-image {
+            width: 35% !important;
+          }
+
+          .aboutus-content {
+            width: 65% !important;
+            padding: 8rem !important;
+          }
+
+          .aboutus-content h2 {
+            font-size: 2.5rem !important;
+            font-weight: 900 !important;
+            margin-bottom: 1rem !important;
+          }
+
+          .aboutus-content p {
+            font-size: 1.125rem !important;
+            line-height: 1.6 !important;
+            margin-bottom: 1.5rem !important;
+          }
+
+          .aboutus-content a {
+            font-size: 1.25rem !important;
+            padding: 1rem 2rem !important;
+          }
+        }
+      `}</style>
+      <Carousela />
+      <section className="aboutus-container mt-20">
+        {/* Left: Image */}
+        <div className="aboutus-image">
+          <img
+            src="https://res.cloudinary.com/dvsbgovdg/image/upload/v1752326016/npr.brightspotcdn_rmsp7h.jpg"
+            alt="About us image"
+            style={{
+              width: '100%',
+              height: 'auto',
+              objectFit: 'cover',
+              borderRadius: 0,
+              border: 'none',
+              display: 'block',
+            }}
+          />
+        </div>
+
+        {/* Right: Content Box */}
+        <div className="aboutus-content bg-[#022e49] text-white rounded-l-[0] md:rounded-l-[15px]">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }} // triggers when 30% visible, only once
+            variants={variants}
+            id='aboutPhone'
+          >
+            <h2 id='titlemymymyw'>About Us</h2>
+            <p id='colorpw'>
+AZEEC is an electrical solution and contracting company established in 2017.Over
+the years, AZEEC earned a reputation for excellence and professionalism as it
+continuously strives to meet and even exceed standards which sets climate for
+sustainable business relationships with clients.
+AZEEC provides electrical solutions, automation & solar systems installation
+services for residential, commercial & industrial sectors.
+Since it was established, AZEEC executed over 64 residential projects, more than
+10 commercial projects ,& over five big industrial projects.
+When it comes to solar system installations, AZEEC successfully delivered over fifty
+30 kW + to 200 KW solar pumping projects and more than one hundred & fifty
+hybrid solar projects of 20 kW + capacities and less.
+
+            </p>
  
+          </motion.div>
         </div>
-      </div>
-      <div className="u-clearfix u-layout-custom-sm u-layout-custom-xs u-layout-wrap u-layout-wrap-1">
-        <div className="u-layout">
-          <div className="u-layout-row">
-            <div className="u-align-right u-container-style u-layout-cell u-size-30-lg u-size-30-md u-size-30-sm u-size-30-xl u-size-60-xs u-layout-cell-1">
-              <div className="u-container-layout u-valign-top u-container-layout-2">
-                <a
-                  href="contact"
-                  className="u-active-white u-border-2 u-border-active-palette-2-base u-border-hover-palette-2-base u-border-palette-2-base u-btn u-btn-round u-button-style u-hover-white u-palette-2-base u-radius-50 u-text-active-black u-text-hover-black u-btn-3"
-                 
-                >
-                  Contact Us
-                  <br />
-                </a>
-              </div>
-            </div>
-            <div className="u-container-style u-layout-cell u-size-30-lg u-size-30-md u-size-30-sm u-size-30-xl u-size-60-xs u-layout-cell-2">
-              <div className="u-container-layout u-valign-top u-container-layout-3">
-                <a
-                  href="shop"
-                  className="u-active-white u-border-2 u-border-active-palette-2-base u-border-hover-palette-2-base u-border-palette-2-base u-btn u-btn-round u-button-style u-hover-white u-palette-2-base u-radius-50 u-text-active-black u-text-hover-black u-btn-3"
-                >
-                  {" "}
-                  Shop Now
-                  <br />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <style
-  dangerouslySetInnerHTML={{
-    __html:
-      '\n  h2:not(.u-subtitle) {\n      font-family: Frank Ruhl Libre, "PT Serif", "Noto Serif", "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", ui-serif, Georgia, Cambria, Times New Roman, Times, serif;\n    font-size: 1.5rem;\n    line-height: 2rem;\n    font-weight: 400;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n'
-  }}
-/>
-<style
-  dangerouslySetInnerHTML={{
-    __html:
-      '\n  p:not(.u-text-variant) {\n    font-family: Lato, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Sans SC, Noto Sans TC, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";\n    font-size: .7857142857142857rem;\n    line-height: 1.15rem;\n    font-weight: 400;\n    letter-spacing: .025em;\n    -webkit-font-smoothing: antialiased;\n  }\n'
-  }}
-/>
+      </section>
+    </>
+  );
+};
 
-  <style
-    dangerouslySetInnerHTML={{
-      __html:
-        ".u-disable-duration * {transition-duration: 0s !important;}.u-section-1 {\n     \n}"
-    }}
-  />
-  <style
-  dangerouslySetInnerHTML={{
-    __html:
-      "\n  .u-section-1 .u-image-1 {\n    border-color: #A59E98 !important;\n    width: 170px;\n    height: 170px;\n    margin: 0 auto;\n}\n"
-  }}
-/>
-
-<style
-  dangerouslySetInnerHTML={{
-    __html: "\n  .u-section-1 .u-btn-3 { \n    margin: auto;\n}\n"
-  }}
-/>
-
-
-<style
-  dangerouslySetInnerHTML={{
-    __html: '\n  h4 { \n    font-family: Poppins;\n}\n'
-  }}
-/>
-
-<style
-  dangerouslySetInnerHTML={{
-    __html: "\n.u-section-1 .u-btn-2 {\n margin: auto;\n}\n<style/>\n"
-  }}
-/>
-
-
-</>
-
-
-        </>
-
-
-    )
-}
+export default AboutUs;
